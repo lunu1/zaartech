@@ -14,10 +14,15 @@ const Line = () => {
             Landscape
         </div>
         <div className='flex gap-3'>
-            <FaInstagram className='cursor-pointer hover:text-gray-300 transition-colors'  />
-            <FaWhatsapp className='cursor-pointer hover:text-gray-300 transition-colors'  />
-            <FaLinkedinIn className='cursor-pointer hover:text-gray-300 transition-colors'  />
+            <a  href="https://www.instagram.com/zaartech_interiors?igsh=Yzd3YXJvM2t3bGZm">
+                 <FaInstagram className='cursor-pointer hover:text-gray-300 transition-colors'/>
+            </a>
+            <a href='https://wa.me/971555343589'>
+              <FaWhatsapp className='cursor-pointer hover:text-gray-300 transition-colors'  />
+            </a>
+            <a href='https://www.facebook.com/share/166FVJYS9X/'>
             <FaFacebook className='cursor-pointer hover:text-gray-300 transition-colors'  />
+            </a>
         </div>
     </div>
   )

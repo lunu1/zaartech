@@ -1,5 +1,5 @@
 import Contactphoto from "../assets/Contact.jpg";
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaInstagram, FaFacebook, FaLinkedin } from 'react-icons/fa';
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaInstagram, FaFacebook,FaWhatsapp } from 'react-icons/fa';
 import Contact from "../components/Contact.jsx";
 
 const ContactUs = () => {
@@ -60,15 +60,16 @@ const ContactUs = () => {
    <section className="space-y-4">
         <h3 className="text-xl font-semibold text-gray-700">Follow Us</h3>
         <div className="flex space-x-6 pb-10 sm:pb-0">
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/zaartech_interiors?igsh=Yzd3YXJvM2t3bGZm" target="_blank" rel="noopener noreferrer">
             <FaInstagram className="text-gray-700 text-2xl" />
           </a>
-          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/share/166FVJYS9X/" target="_blank" rel="noopener noreferrer">
             <FaFacebook className="text-gray-700 text-2xl" />
           </a>
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin className="text-gray-700 text-2xl" />
+          <a href="https://wa.me/971555343589" target="_blank" rel="noopener noreferrer">
+            <FaWhatsapp className="text-gray-700 text-2xl " />
           </a>
+          
         </div>
       </section>
 

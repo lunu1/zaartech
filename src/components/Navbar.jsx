@@ -34,6 +34,7 @@ const Navbar = () => {
 
           {/* Right Side Group - Contains both logos and hamburger */}
           <div className="flex items-center space-x-3 absolute right-1 ">
+          <div className="hidden sm:flex items-center gap-2">
             {/* Logo Links */}
             <a 
               href="https://ibhar.almisbahdecor.com/" 
@@ -51,6 +52,7 @@ const Navbar = () => {
               <img src="/misbahlogo.jpeg" alt="logo" className="h-10 object-contain" />
 
             </a>
+            </div>
 
             {/* Hamburger Menu */}
             <button
@@ -120,7 +122,24 @@ const Navbar = () => {
             >
               Contact
             </a>
-          </div>
+           {/* Same image links duplicated in mobile menu */}
+            <div className="sm:hidden flex items-center gap-2 py-3 px-3">
+              <a
+                href="https://ibhar.almisbahdecor.com/"
+                className="rounded-md bg-gray-100 hover:bg-gray-200 p-2 transition-colors flex items-center justify-center"
+                title="ibar.misbah.com"
+              >
+                <img src="/ibarlogo.jpeg" alt="logo" className="h-10 object-contain" />
+              </a>
+              <a
+                href="https://almisbahdecor.com"
+                className="rounded-md bg-gray-100 hover:bg-gray-200 p-2 transition-colors flex items-center justify-center"
+                title="misbah.com"
+              >
+                <img src="/misbahlogo.jpeg" alt="logo" className="h-10 object-contain" />
+              </a>
+            </div>
+            </div>
         </div>
       )}
     </nav>
