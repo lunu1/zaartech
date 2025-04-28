@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Romanica';
+    src: url('./assets/Romanica.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.Romanica {
+    font-family: 'Romanica', sans-serif;
+}
+
+
+@font-face {
+    font-family: 'OPTIBakerDanmarkOne';
+    src: url('./assets/OPTIBakerDanmarkOne.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.OPTIBakerDanmarkOne {
+    font-family: 'OPTIBakerDanmarkOne', sans-serif;
+}
+
+
+@font-face {
+    font-family: 'DecoryaDEMO';
+    src: url('./assets/DecoryaDEMO.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.DecoryaDEMO {
+    font-family: 'OPTIBakerDanmarkOne', sans-serif;
+}
